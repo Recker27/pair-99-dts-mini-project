@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { Box, Typography } from "@mui/material";
-import trending from "../data/trending.json";
 import CardMovie from "../components/CardMovie";
 
 const ListMovies = () => {
